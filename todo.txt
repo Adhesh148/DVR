@@ -1,0 +1,21 @@
+Today is the last exercise of computer network on Distance Vector Routing.
+In this you can set four nodes in a network and check the link cost based on the latency of sending a message to one and another. 
+Once you have the latency, use it as a cost and implement the program using socket (TCP). 
+Requirement is to simulate the working of Distance vector routing through socket programming. 
+
+
+STEP 1: Setup the 4 nodes in a network
+
+- For this let us setup 4 virtual network interfaces and assign ip address to them
+- Run the setup.sh script to setup the four network nodes
+
+STEP 2: Let us find the link cost as the RTT
+
+- Let us ar
+
+//////
+127.0.0.1 127.0.0.2
+127.0.0.2 127.0.0.3
+127.0.0.1 127.0.0.3
+127.0.0.2 127.0.0.4
+127.0.0.3 127.0.0.4
