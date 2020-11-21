@@ -272,7 +272,7 @@ def main():
 	# Iterate over each destination and find the route by requesting appropriate clients for the next hop
 	print("\n[DVR] Printing routing information")
 	hop_list = [rt[NODE_NUM-1][0]]
-	print(client_addrs)
+	# print(client_addrs)
 	for i in range(0,4):
 		if i != NODE_NUM - 1:
 			dest = rt[i][0]
